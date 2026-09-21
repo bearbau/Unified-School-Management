@@ -11,8 +11,8 @@ public class SchoolManagementApp{
 
         // Testing methods 
 
-        System.out.println(attendance.integrateSystem());
-        System.out.println(grading.integrateSystem());
-        System.out.println(library.integrateSystem());
+        System.out.println(attendanceAdapter.integrateSystem());
+        System.out.println(gradingAdapter.integrateSystem());
+        System.out.println(libraryAdapter.integrateSystem());
     }
 }
