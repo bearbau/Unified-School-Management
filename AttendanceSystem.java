@@ -1,5 +1,5 @@
 public class AttendanceSystem{
-    public String markAttendance(){
+    public String markAttendance(){    
         return "Attendance marked";
     }
 }
