@@ -13,6 +13,7 @@ A school management application that helps administrators manage various school 
 - LibrarySystemAdapter - An adapter for integrating the library management system into the school management application. It adapts the LibrarySystem to the SchoolManagementApp interface, translating integrateSystem() to manageBooks().
 
 **Status**: Not done
+
 **Changes to be made**: GUI on JSwing, working functional methods and database
 
 Mostly experimental using school resources and I want to try making a decent Java GUI.
