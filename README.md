@@ -1,4 +1,4 @@
-# Unified-School-Management
+# Unified School Management
 A school management application that helps administrators manage various school systems such as attendance, grading, and library management. Each system has different interfaces and methods. To ensure compatibility and seamless integration, you need to create adapters for different systems to allow them to connect to the unified school management application.
 
 ## Adaptee Objects:
@@ -11,3 +11,8 @@ A school management application that helps administrators manage various school 
 - AttendanceSystemAdapter - An adapter for integrating the attendance system into the school management application. It adapts the AttendanceSystem to the SchoolManagementApp interface, translating integrateSystem() to markAttendance().
 - GradingSystemAdapter - An adapter for integrating the grading system into the school management application. It adapts the GradingSystem to the SchoolManagementApp interface, translating integrateSystem() to recordGrades().
 - LibrarySystemAdapter - An adapter for integrating the library management system into the school management application. It adapts the LibrarySystem to the SchoolManagementApp interface, translating integrateSystem() to manageBooks().
+
+**Status**: Not done
+**Changes to be made**: GUI on JSwing, working functional methods and database
+
+Mostly experimental using school resources and I want to try making a decent Java GUI.
